@@ -1,0 +1,7 @@
+{
+    "server_name": "prod-web-01",
+    "ip_address": "192.168.1.105",
+    "port": 8080,
+    "services": ["nginx", "php-fpm", "mysql"],
+    "is_active": true
+}
