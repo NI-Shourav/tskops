@@ -3,7 +3,7 @@ import shutil
 from datetime import datetime
 
 # The Scenario: Archive old log files
-log_dir = "./logs"
+log_dir = "../logs"
 archive_dir = "./archive"
 
 # 1. Create directory if it doesn't exist
@@ -34,3 +34,5 @@ for file_name in files:
             print(f"❌ Failed to move {file_name}: {e}")
 
 print("Cleanup complete.")
+
+

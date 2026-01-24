@@ -21,3 +21,6 @@ def remainder(a, b):
     if b == 0:
         return "Error: Cannot calculate remainder of zero"
     return a % b
+
+
+name = 'Nure'

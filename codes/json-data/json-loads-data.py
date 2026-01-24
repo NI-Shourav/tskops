@@ -1,5 +1,5 @@
 import json
-
+''' This is json data '''
 # 1. This is a STRING (notice the triple quotes). 
 # It looks like a dictionary, but Python sees it as text.
 raw_api_response = """
@@ -12,8 +12,11 @@ raw_api_response = """
 }
 """
 
+
 # 2. Use json.loads() to turn that string into a Python Dictionary
 data = json.loads(raw_api_response)
+
+
 
 # 3. Now you can use it in your automation logic
 if data["status"] == "success":

@@ -1,11 +1,13 @@
 import requests
 import json
+import pdb
 
 # 1. The URL that provides the fake post data
 url = "https://jsonplaceholder.typicode.com/posts"
 
 try:
     # 2. Fetch the data
+    # pdb.set_trace()
     response = requests.get(url)
     response.raise_for_status() # Check for errors
 
